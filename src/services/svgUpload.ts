@@ -1,4 +1,4 @@
-/** Upload validation is independent from the narrower stage-3 extraction subset. */
+/** Upload validation is independent from the narrower extraction subset. */
 export function validateSvgUpload(text: string): void {
   if (/<!DOCTYPE|<!ENTITY|<\?xml-stylesheet/i.test(text)) throw new Error('DTD и внешние XML-стили не поддерживаются.');
   const xml = new DOMParser().parseFromString(text, 'image/svg+xml');

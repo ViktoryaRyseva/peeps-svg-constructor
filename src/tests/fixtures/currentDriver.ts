@@ -31,7 +31,7 @@ function resize() {
 }
 async function load(name: string, text?: string) {
   const token = ++generation;
-  const source = text ?? await (await fetch(`${name.startsWith('peep-') ? '/demo/' : '/experiments-v2/'}${name}`)).text();
+  const source = text ?? await (await fetch(`${name.startsWith('peep-') ? '/demo/' : '/src/tests/assets/details/'}${name}`)).text();
   if (token !== generation) return;
   const next = mountSvg(source); let nextModel: SelectionModel;
   try { nextModel = new SelectionModel(next.svg); } catch (error) { next.dispose(); throw error; }
@@ -85,6 +85,6 @@ export const api = {
   select: (entries: { selector: string; part?: number }[]) => select(entries.map(entry => model!.forSelector(entry.selector, entry.part).id)),
   selection: () => selected.map(id => ({ id, kind: model!.candidate(id)!.kind })),
 };
-declare global { interface Window { svgExperimentV2: typeof api } }
-window.svgExperimentV2 = api;
+declare global { interface Window { svgSelectionHarness: typeof api } }
+window.svgSelectionHarness = api;
 void load('peep-sitting-7.svg').catch(error => { el('error').textContent = error.message; });

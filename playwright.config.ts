@@ -1,6 +1,6 @@
 import { defineConfig } from '@playwright/test';
 
-// Browser acceptance for the editor, local libraries and SVG experiment.
+// Browser acceptance for the editor, libraries and SVG processing.
 export default defineConfig({
   testDir: './src/tests',
   testMatch: '**/*.spec.ts',

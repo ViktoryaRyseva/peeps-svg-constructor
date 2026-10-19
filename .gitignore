@@ -4,8 +4,10 @@ dist/
 *.local
 test-results/
 playwright-report/
-experiments/**/__screenshots__/
+src/tests/**/__screenshots__/
 .vitest-attachments/
 
 project-files/
 test-project-files/
+
+test-artifacts/

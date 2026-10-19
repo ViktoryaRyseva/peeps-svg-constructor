@@ -40,8 +40,8 @@ test('multiple SVGs: validation, exact bytes, preview and reload', async ({ page
     return (await storage.list()).sources.find((item: { name: string }) => item.name === 'Красный.svg');
   });
   expect(saved.svgContent).toBe(svg);
-  await mkdir('docs/stage-6-artifacts', { recursive: true });
-  await page.screenshot({ path: 'docs/stage-6-artifacts/real-upload.png' });
+  await mkdir('test-artifacts/libraries', { recursive: true });
+  await page.screenshot({ path: 'test-artifacts/libraries/real-upload.png' });
 });
 
 test('cancel upload and file name do not write data; case duplicate stays editable', async ({ page }) => {
@@ -150,8 +150,8 @@ test('scrollable lists and hover previews for actual saved records', async ({ pa
   await expect(page.getByRole('img', { name: 'Превью Проверка 14.svg', exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Открыть Три характера.json', exact: true }).hover();
   await expect(page.getByRole('img', { name: 'Превью Три характера.json', exact: true })).toBeVisible();
-  await mkdir('docs/stage-6-artifacts', { recursive: true });
-  await page.screenshot({ path: 'docs/stage-6-artifacts/libraries-preview.png' });
+  await mkdir('test-artifacts/libraries', { recursive: true });
+  await page.screenshot({ path: 'test-artifacts/libraries/libraries-preview.png' });
 });
 
 test('unavailable IndexedDB shows an error instead of temporary libraries, then recovers', async ({ page }) => {

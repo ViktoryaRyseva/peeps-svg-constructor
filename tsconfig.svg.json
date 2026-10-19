@@ -1,4 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "include": ["experiments/svg", "experiments/svg-v2", "vitest.config.ts"]
-}

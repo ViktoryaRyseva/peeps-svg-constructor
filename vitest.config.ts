@@ -3,7 +3,7 @@ import { playwright } from '@vitest/browser-playwright';
 
 export default defineConfig({
   test: {
-    include: ['experiments/svg*/**/*.test.ts', 'src/tests/**/*.test.ts'],
+    include: ['src/tests/**/*.test.ts'],
     browser: {
       enabled: true,
       headless: true,

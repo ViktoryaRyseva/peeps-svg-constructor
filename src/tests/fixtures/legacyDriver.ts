@@ -23,7 +23,7 @@ async function load(name: string) {
   current?.dispose(); selection = []; extracted = null;
   code.value = ''; downloadButton.disabled = true;
   if (imageUrl) { URL.revokeObjectURL(imageUrl); imageUrl = null; }
-  const response = await fetch(`/experiments/${name}`);
+  const response = await fetch(`/src/tests/assets/groups/${name}`);
   if (!response.ok) throw new Error(`Файл недоступен: ${response.status}`);
   originalText = await response.text();
   current = mountSvg(originalText, source);
@@ -58,7 +58,7 @@ downloadButton.addEventListener('click', () => {
 // Test harness API: invokes the same module as the UI; no project/library integration.
 declare global {
   interface Window {
-    svgExperiment: {
+    svgExtractionHarness: {
       load: typeof load;
       select: (selectors: string[]) => void;
       run: typeof run;
@@ -67,7 +67,7 @@ declare global {
     };
   }
 }
-window.svgExperiment = {
+window.svgExtractionHarness = {
   load,
   select: selectors => { selection = selectors.map(selector => selectBySelector(current!.svg, selector)); updateSelection(); },
   run,
