@@ -1,0 +1,16 @@
+{
+  "browser": "155.0.8059.80",
+  "pageErrors": [],
+  "uncommitted": {
+    "before": 160,
+    "fieldValue": "777",
+    "modelX": 160,
+    "saveDisabled": true,
+    "afterReload": 160,
+    "beforeUnloadDialogs": 0
+  },
+  "committed": {
+    "modelX": 888,
+    "saveEnabled": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "browser": "155.0.8059.80",
+  "measurements": [
+    {
+      "name": "peep-sitting-7.svg",
+      "loadMs": 12.5,
+      "preparationMs": 7,
+      "parts": 9,
+      "shapes": 5,
+      "fallbacks": 3,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0.10000000149011612,
+      "extractionMs": 2.199999999254942
+    },
+    {
+      "name": "peep-sitting-10.svg",
+      "loadMs": 16.400000002235174,
+      "preparationMs": 8.800000000745058,
+      "parts": 6,
+      "shapes": 5,
+      "fallbacks": 4,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0.10000000149011612,
+      "extractionMs": 1.300000000745058
+    },
+    {
+      "name": "peep-standing-24.svg",
+      "loadMs": 14,
+      "preparationMs": 6.399999998509884,
+      "parts": 6,
+      "shapes": 5,
+      "fallbacks": 4,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0.10000000149011612,
+      "extractionMs": 1.199999999254942
+    },
+    {
+      "name": "synthetic-50",
+      "loadMs": 5.699999999254942,
+      "preparationMs": 2.800000000745058,
+      "parts": 100,
+      "shapes": 50,
+      "fallbacks": 0,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0,
+      "extractionMs": 0.8999999985098839
+    },
+    {
+      "name": "synthetic-200",
+      "loadMs": 16.800000000745058,
+      "preparationMs": 7.600000001490116,
+      "parts": 400,
+      "shapes": 200,
+      "fallbacks": 0,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0,
+      "extractionMs": 1.699999999254942
+    },
+    {
+      "name": "synthetic-500",
+      "loadMs": 38,
+      "preparationMs": 16.300000000745058,
+      "parts": 1000,
+      "shapes": 500,
+      "fallbacks": 0,
+      "hitP50Ms": 0,
+      "hitP95Ms": 0,
+      "extractionMs": 3.199999999254942
+    }
+  ]
+}

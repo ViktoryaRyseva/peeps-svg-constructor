@@ -1,0 +1,75 @@
+{
+  "observedAt": "2026-10-18T19:08:05.637Z",
+  "origin": "http://127.0.0.1:5173",
+  "processor": {
+    "uploadMismatch": [
+      {
+        "kind": "missing-viewBox",
+        "saved": true,
+        "openError": "Нужен конечный viewBox с положительной шириной и высотой."
+      },
+      {
+        "kind": "text",
+        "saved": true,
+        "openError": "Элемент <text> пока не поддерживается."
+      },
+      {
+        "kind": "use",
+        "saved": true,
+        "openError": "Элемент <use> пока не поддерживается."
+      }
+    ],
+    "malformedPath": {
+      "acceptedByUpload": true,
+      "errors": [
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end.",
+        "Unterminated command at the path end."
+      ],
+      "leakedHosts": 10
+    },
+    "numeric": {
+      "rotation": 1e+308,
+      "allResultValuesFinite": false,
+      "overflowingGeometryStored": true
+    },
+    "limits": {
+      "bytes": 560067,
+      "nodes": 20000,
+      "accepted": true,
+      "validationMs": 38.5
+    },
+    "placement": {
+      "count": 36,
+      "entirelyOutsideCanvas": 3,
+      "lastY": 810
+    }
+  },
+  "concurrentSave": {
+    "expectedXFromFirstTab": 111,
+    "storedX": 160,
+    "storedY": 222,
+    "firstTabChangeLost": true
+  },
+  "numericUi": {
+    "allValuesFinite": false,
+    "transform": "translate(NaN NaN) rotate(1e+308) scale(NaN 1) translate(-183.5 -310)"
+  },
+  "removedRoutes": [
+    {
+      "route": "/experiments/svg/index.html",
+      "status": 404
+    },
+    {
+      "route": "/experiments/svg-v2/index.html",
+      "status": 404
+    }
+  ]
+}

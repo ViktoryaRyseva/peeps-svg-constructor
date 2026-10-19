@@ -1,0 +1,42 @@
+{
+  "unitTests": 64,
+  "playwrightTests": 106,
+  "stage7Scenarios": 11,
+  "browser": "Chrome 155.0.8059.80",
+  "buildPassed": true,
+  "resources": [
+    {
+      "kind": "linear",
+      "maxDelta": 0,
+      "storedBytes": 4986
+    },
+    {
+      "kind": "radial",
+      "maxDelta": 0,
+      "storedBytes": 4934
+    },
+    {
+      "kind": "clip",
+      "maxDelta": 0,
+      "storedBytes": 4242
+    },
+    {
+      "kind": "mask",
+      "maxDelta": 0,
+      "storedBytes": 3618
+    }
+  ],
+  "originalSourcesByteIdentical": {
+    "peep-standing-24.svg": true,
+    "peep-sitting-7.svg": true,
+    "peep-sitting-10.svg": true
+  },
+  "baseExporterRelocatedWithoutChanges": true,
+  "storageServiceUnchanged": true,
+  "previousV2VisualCases": 52,
+  "previousV2MaxDelta": 0,
+  "repeated": {
+    "isolatedExtractionIds": true,
+    "instances": 10
+  }
+}

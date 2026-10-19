@@ -1,0 +1,31 @@
+{
+  "name": "arc-0",
+  "fixture": "topology.svg",
+  "selections": [
+    {
+      "selector": "#arc",
+      "part": 0
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 20,
+    "y": 90,
+    "width": 40,
+    "height": 40
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 1.699999999254942,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 80,
+    "height": 80,
+    "mismatched": 0,
+    "visible": 5092,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

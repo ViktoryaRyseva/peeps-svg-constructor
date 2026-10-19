@@ -1,0 +1,23 @@
+{
+  "browser": "155.0.8059.80",
+  "measurements": [
+    {
+      "count": 10,
+      "legacyMedianMs": 0.5999999977648258,
+      "currentMedianMs": 0,
+      "matches": true
+    },
+    {
+      "count": 50,
+      "legacyMedianMs": 2.5,
+      "currentMedianMs": 0,
+      "matches": true
+    },
+    {
+      "count": 200,
+      "legacyMedianMs": 10.600000001490116,
+      "currentMedianMs": 0,
+      "matches": true
+    }
+  ]
+}

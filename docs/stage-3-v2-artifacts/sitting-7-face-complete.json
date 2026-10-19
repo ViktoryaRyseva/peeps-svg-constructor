@@ -1,0 +1,69 @@
+{
+  "name": "sitting-7-face-complete",
+  "fixture": "peep-sitting-7.svg",
+  "selections": [
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 0,
+      "expected": [
+        0
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 1,
+      "expected": [
+        1
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 2,
+      "expected": [
+        2
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 3,
+      "expected": [
+        3
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 4,
+      "expected": [
+        4
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 5,
+      "expected": [
+        5
+      ]
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 91.6727523803711,
+    "y": 89.66726875305176,
+    "width": 46.16547393798828,
+    "height": 48.02936935424805
+  },
+  "dependencyCount": 0,
+  "selectedCount": 6,
+  "warnings": [],
+  "detailCount": 6,
+  "extractionMs": 2.300000000745058,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 93,
+    "height": 97,
+    "mismatched": 0,
+    "visible": 1340,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

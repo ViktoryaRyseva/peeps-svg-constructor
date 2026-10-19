@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88.20514574690708" height="88.20514574690706" viewBox="216.89742712654316 66.89742712654648 88.20514574690708 88.20514574690706">
+  <style>.theme .paint { fill: url(#paint); stroke: none; } .theme .accent { fill: #7544a0; } #base .warm { stop-color: #ed944a; }</style>
+  <defs>
+    <linearGradient id="base"><stop class="warm" offset="0"/><stop offset="1" stop-color="#427b72"/></linearGradient>
+    <linearGradient id="paint" href="#base" x1="0" x2="1"/>
+    <radialGradient id="radial"><stop offset="0" stop-color="white"/><stop offset="1" stop-color="#3168ae"/></radialGradient>
+    <clipPath id="clip"><circle cx="50" cy="40" r="38"/></clipPath>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="80"><rect width="100" height="80" fill="white"/><rect width="18" height="80" fill="black"/></mask>
+    <linearGradient id="unused"><stop offset="0" stop-color="pink"/></linearGradient>
+  </defs>
+  <g class="theme" fill="#916f4b" transform="translate(70 45)" opacity="0.8">
+    <g id="gradient-object" data-component="true" transform="translate(10 20)"><rect class="paint" width="100" height="80" clip-path="url(#clip)" mask="url(#fade)" style="display: none !important;"/></g>
+    <g id="radial-object" data-component="true" transform="translate(155 30) rotate(18 36 36)"><circle cx="36" cy="36" r="35" fill="url(#radial)"/><rect class="accent" x="18" y="22" width="35" height="25"/></g>
+  </g>
+</svg>

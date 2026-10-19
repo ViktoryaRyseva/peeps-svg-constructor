@@ -1,0 +1,77 @@
+{
+  "name": "sitting-10-face-complete",
+  "fixture": "peep-sitting-10.svg",
+  "selections": [
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 0,
+      "expected": [
+        0
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 1,
+      "expected": [
+        1
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 2,
+      "expected": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 11,
+      "expected": [
+        11
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 12,
+      "expected": [
+        12
+      ]
+    },
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 13,
+      "expected": [
+        13
+      ]
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 143.17730617523193,
+    "y": 68.66726875305176,
+    "width": 47.41926574707031,
+    "height": 53.612342834472656
+  },
+  "dependencyCount": 0,
+  "selectedCount": 6,
+  "warnings": [],
+  "detailCount": 6,
+  "extractionMs": 2.300000000745058,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 95,
+    "height": 108,
+    "mismatched": 0,
+    "visible": 2968,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

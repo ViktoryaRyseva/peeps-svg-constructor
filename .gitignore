@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+test-results/
+playwright-report/
+experiments/**/__screenshots__/
+.vitest-attachments/
+
+project-files/
+test-project-files/

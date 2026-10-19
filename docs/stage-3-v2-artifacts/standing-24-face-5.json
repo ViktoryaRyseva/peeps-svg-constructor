@@ -1,0 +1,34 @@
+{
+  "name": "standing-24-face-5",
+  "fixture": "peep-standing-24.svg",
+  "selections": [
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 5,
+      "expected": [
+        5
+      ]
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 152.51441192626953,
+    "y": 56.864336013793945,
+    "width": 5.408559799194336,
+    "height": 9.66325569152832
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 2.100000001490116,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 11,
+    "height": 20,
+    "mismatched": 0,
+    "visible": 183,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

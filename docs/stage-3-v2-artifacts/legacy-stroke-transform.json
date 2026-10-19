@@ -1,0 +1,32 @@
+{
+  "name": "legacy-stroke-transform",
+  "fixture": "stroke.svg",
+  "selections": [
+    {
+      "selector": "#stroke-object"
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": -1.7072926953956369,
+    "y": -2.134777497418412,
+    "width": 278.017632101142,
+    "height": 192.49644634446997
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [
+    "Обводка: границы дополнены консервативным запасом, возможны прозрачные поля."
+  ],
+  "detailCount": 0,
+  "extractionMs": 1.3999999985098839,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 557,
+    "height": 385,
+    "mismatched": 0,
+    "visible": 12890,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

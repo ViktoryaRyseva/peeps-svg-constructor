@@ -1,0 +1,16 @@
+// Test-only DOM; this is not an application HTML entry point.
+export default `<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SVG — эксперимент этапа 3</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f5ef;color:#35432e;font:14px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}header{background:white;padding:22px 32px;border-bottom:1px solid #dce3d4}h1{font-size:22px;margin:0 0 4px}p{margin:0;color:#7a896c}main{padding:26px 32px}nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:20px}select,button{font:inherit;padding:9px 12px;border:1px solid #ced9c0;border-radius:6px;background:white;color:#506440}button{cursor:pointer}button:disabled{color:#aebba0;cursor:default}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel{background:#fff;border:1px solid #dfe5d7;border-radius:10px;padding:20px;min-width:0}.panel h2{font-size:15px;margin:0 0 15px}.preview{overflow:auto;min-height:380px;max-height:700px;background-image:radial-gradient(#cad5c0 .7px,transparent .7px);background-size:16px 16px;padding:20px}.preview svg{max-width:100%;height:auto}.preview img{max-width:100%;max-height:620px}.status{padding:16px 0;white-space:pre-wrap;font-size:12px}#error{color:#a55041}a{color:#637c4d}details{margin-top:16px}textarea{display:block;width:100%;height:180px;font:11px/1.5 monospace;border:1px solid #dae3d0;padding:10px}svg [data-component=true]{cursor:pointer}.muted{font-size:12px;margin-top:10px}output{font-variant-numeric:tabular-nums}@media(max-width:800px){.grid{grid-template-columns:1fr}main,header{padding:18px}}
+</style></head>
+<body><header><h1>SVG: извлечение компонента</h1><p>Изолированный эксперимент этапа 3 · настоящие SVG-группы · DOMParser / XMLSerializer</p></header>
+<main><nav><label for="fixture">Исходник:</label><select id="fixture"><option value="peep-sitting-7.svg">Peep sitting 7</option><option value="peep-sitting-10.svg">Peep sitting 10</option><option value="peep-standing-24.svg">Peep standing 24</option><option value="dependencies.svg">Градиенты, CSS, маска и clipPath</option><option value="stroke.svg">Обводка и трансформации</option></select><button id="extract" disabled>Извлечь выделение</button><button id="download" disabled>Скачать результат SVG</button><a href="/">К прототипу редактора</a></nav>
+<p>Клик — ближайшая помеченная группа. Shift + клик — добавить / исключить. Клик по фону снимает выделение.</p>
+<div class="status" id="status" role="status">Загрузка…</div><p id="error" role="alert"></p>
+<div class="grid"><section class="panel"><h2>Исходник</h2><div class="preview" id="source"></div></section><section class="panel"><h2>Самостоятельный компонент</h2><div class="preview" id="result"></div><p class="muted" id="metrics">Выберите объект и выполните извлечение.</p></section></div>
+<details><summary>SVG результата</summary><textarea id="code" aria-label="SVG результата" readonly></textarea></details>
+<p class="muted">Данные этого эксперимента не записываются в библиотеки редактора. Подготовленные Peep — отдельные копии; исходные файлы не изменены.</p></main>
+</body></html>
+`;

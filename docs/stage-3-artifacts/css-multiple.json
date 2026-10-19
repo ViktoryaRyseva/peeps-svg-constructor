@@ -1,0 +1,29 @@
+{
+  "name": "css-multiple",
+  "fixture": "dependencies.svg",
+  "selectors": [
+    "#radial-object",
+    "#gradient-object"
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 80,
+    "y": 65,
+    "width": 225.10257287345354,
+    "height": 90.10257287345351
+  },
+  "dependencyCount": 5,
+  "selectedCount": 2,
+  "warnings": [
+    "Маска/клиппинг сохранены; границы рассчитаны по исходной геометрии без обрезки прозрачных полей."
+  ],
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 451,
+    "height": 181,
+    "mismatched": 0,
+    "visible": 33485,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

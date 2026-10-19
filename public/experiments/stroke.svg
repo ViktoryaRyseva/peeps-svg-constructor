@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="-30 -20 400 300">
+  <g transform="translate(70 40) rotate(25) scale(1.4 .8)" stroke="#263a49" stroke-width="8" fill="#d6a85d">
+    <g id="stroke-object" data-component="true"><path d="M0 60 25 0 50 60" stroke-linejoin="miter" stroke-miterlimit="8"/><line x1="80" y1="10" x2="145" y2="60" stroke-linecap="square"/></g>
+  </g>
+</svg>

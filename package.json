@@ -1,0 +1,44 @@
+{
+  "name": "peeps-svg-constructor",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && tsc -p tsconfig.svg.json && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:prototype": "playwright test prototype.spec.ts",
+    "test:svg": "vitest run",
+    "test:svg:acceptance": "playwright test svg-experiment.spec.ts",
+    "test:svg:v2": "playwright test svg-v2.spec.ts svg-selection.spec.ts",
+    "test:stage7": "playwright test stage7.spec.ts",
+    "test:stabilization": "playwright test stabilization.spec.ts",
+    "test:stage10": "playwright test stage10.spec.ts",
+    "test:stages89": "playwright test stages89.spec.ts",
+    "test:unit": "vitest run",
+    "test:libraries": "playwright test libraries.spec.ts",
+    "test:e2e": "playwright test",
+    "test": "npm run test:files && npm run test:unit && npm run test:e2e && npm run test:file-ui",
+    "test:files": "node --test server/projectStorage.test.ts",
+    "test:file-ui": "playwright test --config playwright.files.config.ts"
+  },
+  "dependencies": {
+    "dexie": "^4.4.6",
+    "paper": "^0.12.20",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "svg-pathdata": "^9.0.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "@vitest/browser-playwright": "^4.1.12",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "^4.1.12"
+  }
+}

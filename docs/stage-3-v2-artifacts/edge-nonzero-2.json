@@ -1,0 +1,32 @@
+{
+  "name": "edge-nonzero-2",
+  "fixture": "edge-cases.svg",
+  "selections": [
+    {
+      "selector": "#nonzero",
+      "part": 2,
+      "expectedD": "M140 20h40v40h-40z"
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 140,
+    "y": 20,
+    "width": 40,
+    "height": 40
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 1.2999999970197678,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 80,
+    "height": 80,
+    "mismatched": 0,
+    "visible": 6400,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "sitting-10-face-13",
+  "fixture": "peep-sitting-10.svg",
+  "selections": [
+    {
+      "selector": "[id^=\"face/\"] > path",
+      "part": 13,
+      "expected": [
+        13
+      ]
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 176.9252815246582,
+    "y": 68.66726875305176,
+    "width": 13.67129135131836,
+    "height": 7.408468246459961
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 2.100000001490116,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 28,
+    "height": 15,
+    "mismatched": 0,
+    "visible": 207,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

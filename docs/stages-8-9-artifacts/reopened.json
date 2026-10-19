@@ -1,0 +1,30 @@
+{
+  "instances": [
+    {
+      "id": "444e5d69-890a-40b7-8727-c08c5c3af489",
+      "name": "A.svg",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 80\"><rect width=\"100%\" height=\"100%\" fill=\"#be4f42\"/></svg>",
+      "instanceId": "e9e88d40-4ac8-4855-a13a-377c32e96435",
+      "x": 280.123456,
+      "y": 220.987654,
+      "scaleX": 1.5,
+      "scaleY": 0.5,
+      "rotation": 33.25
+    },
+    {
+      "id": "a60bbd1b-a2e7-4e3c-bb5d-1f4a5e23c8d1",
+      "name": "B.svg",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 80\"><rect width=\"100%\" height=\"100%\" fill=\"#527da7\"/></svg>",
+      "instanceId": "ea32ca9d-7bcf-444b-9b81-a8cee2e62613",
+      "x": 430,
+      "y": 150,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    }
+  ],
+  "tiny": {
+    "width": 1.796875,
+    "height": 4.796875
+  }
+}

@@ -1,0 +1,15 @@
+
+> peeps-svg-constructor@0.2.0 build
+> tsc --noEmit && tsc -p tsconfig.svg.json && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 58 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.67 kB │ gzip:   0.42 kB
+dist/assets/index-jh_TbhM2.css         22.83 kB │ gzip:   5.88 kB
+dist/assets/SourceCanvas-Bb9hAFVV.js  244.61 kB │ gzip:  84.81 kB
+dist/assets/index-DuJrRdKa.js         390.03 kB │ gzip: 123.91 kB
+
+✓ built in 236ms

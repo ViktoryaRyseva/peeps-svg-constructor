@@ -1,0 +1,31 @@
+{
+  "name": "donut-0",
+  "fixture": "topology.svg",
+  "selections": [
+    {
+      "selector": "#donut",
+      "part": 0
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 20,
+    "y": 20,
+    "width": 80,
+    "height": 80
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 1.5,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 160,
+    "height": 160,
+    "mismatched": 0,
+    "visible": 19200,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

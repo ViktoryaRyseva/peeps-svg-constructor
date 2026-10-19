@@ -1,0 +1,32 @@
+{
+  "name": "edge-curves-0",
+  "fixture": "edge-cases.svg",
+  "selections": [
+    {
+      "selector": "#curves",
+      "part": 0,
+      "expectedD": "M20 30c10-10 20-10 30 0s20 10 30 0v30h-60z"
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 20,
+    "y": 362.5,
+    "width": 60,
+    "height": 37.5
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 1.300000000745058,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 120,
+    "height": 75,
+    "mismatched": 0,
+    "visible": 7252,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

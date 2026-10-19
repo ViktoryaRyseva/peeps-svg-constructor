@@ -1,0 +1,31 @@
+{
+  "name": "clip-0",
+  "fixture": "resources.svg",
+  "selections": [
+    {
+      "selector": "#clip-detail",
+      "part": 0
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 20,
+    "y": 180,
+    "width": 40,
+    "height": 40
+  },
+  "dependencyCount": 2,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 2,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 80,
+    "height": 80,
+    "mismatched": 0,
+    "visible": 5120,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "edge-overlap-0",
+  "fixture": "edge-cases.svg",
+  "selections": [
+    {
+      "selector": "#overlap",
+      "part": 0,
+      "expectedD": "M20 20h50v50h-50z M50 20h50v50h-50z"
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "bounds": {
+    "x": 20,
+    "y": 105,
+    "width": 80,
+    "height": 50
+  },
+  "dependencyCount": 0,
+  "selectedCount": 1,
+  "warnings": [],
+  "detailCount": 1,
+  "extractionMs": 1.5,
+  "sourceUnchanged": true,
+  "pixels": {
+    "width": 160,
+    "height": 100,
+    "mismatched": 0,
+    "visible": 12000,
+    "mismatchRatio": 0,
+    "maxDelta": 0
+  }
+}
